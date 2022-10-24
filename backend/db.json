@@ -1,49 +1,22 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "oi",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 2,
-      "conteudo": "oii",
-      "modelo": "modelo2"
-    },
-    {
-      "id": 3,
-      "conteudo": "oiii",
-      "modelo": "modelo3"
-    },
-    {
-      "conteudo": "Sabe de nada inicente",
-      "autoria": "sei la quem",
-      "modelo": "modelo2",
+      "conteudo": "Sabe de nada inicente!",
+      "autoria": "É o Tchan!",
+      "modelo": "modelo1",
       "id": 4
     },
     {
-      "conteudo": "ccccc",
-      "autoria": "ccccc",
+      "conteudo": "Everybody hurts sometimes Everybody hurts someday, ayy-ayy  But everything gon' be alright  Go and raise a glass and say, ayy",
+      "autoria": "Maroon 5",
       "modelo": "modelo2",
       "id": 5
     },
     {
-      "conteudo": "testeeeeee",
-      "autoria": "testeeeee",
-      "modelo": "modelo1",
+      "conteudo": "Correr ou morrer",
+      "autoria": "Toretto",
+      "modelo": "modelo3",
       "id": 6
-    },
-    {
-      "conteudo": "meu deus",
-      "autoria": "aaaa",
-      "modelo": "modelo2",
-      "id": 7
-    },
-    {
-      "conteudo": "editar, funciona pelo amor de Deus ",
-      "autoria": "Matheus",
-      "modelo": "modelo1",
-      "id": 8
     }
   ]
 }
