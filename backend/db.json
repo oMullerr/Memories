@@ -1,5 +1,5 @@
 {
-  "pensamentos":[
+  "pensamentos": [
     {
       "id": 1,
       "conteudo": "oi",
@@ -14,6 +14,36 @@
       "id": 3,
       "conteudo": "oiii",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Sabe de nada inicente",
+      "autoria": "sei la quem",
+      "modelo": "modelo2",
+      "id": 4
+    },
+    {
+      "conteudo": "ccccc",
+      "autoria": "ccccc",
+      "modelo": "modelo2",
+      "id": 5
+    },
+    {
+      "conteudo": "testeeeeee",
+      "autoria": "testeeeee",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "meu deus",
+      "autoria": "aaaa",
+      "modelo": "modelo2",
+      "id": 7
+    },
+    {
+      "conteudo": "editar, funciona pelo amor de Deus ",
+      "autoria": "Matheus",
+      "modelo": "modelo1",
+      "id": 8
     }
   ]
 }
