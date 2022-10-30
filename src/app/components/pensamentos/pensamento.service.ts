@@ -13,7 +13,7 @@ export class PensamentoService {
   constructor(private http: HttpClient) { }
 
   listar(pagina: number, filtro: string, favoritos: boolean): Observable<Pensamento[]> {
-    const itensPorPagina = 1;
+    const itensPorPagina = 6;
 
     let params = new HttpParams().set("_page",pagina).set("_limit",itensPorPagina);
 
