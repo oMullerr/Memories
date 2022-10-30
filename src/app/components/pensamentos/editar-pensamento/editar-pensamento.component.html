@@ -2,6 +2,7 @@
   <header class="header">
     <h2>Adicione um <br>pensamento novo:</h2>
   </header>
+
   <form [formGroup]="formulario" *ngIf="formulario">
     <label for="pensamento">Pensamento</label>
     <input type="textarea" class="input" id="pensamento" formControlName="conteudo" placeholder="Digite o pensamento">
@@ -18,6 +19,7 @@
       *ngIf="formulario.get('autoria')?.errors?.['minlength'] && formulario.get('autoria')?.touched">
       Autoria precisa ter no mínimo 3 caracteres!
     </div>
+
     <label for="modelo">Selecione o modelo do card:</label>
     <div class="container-radio">
       <div class="radio-modelo">
