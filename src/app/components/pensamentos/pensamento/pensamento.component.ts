@@ -1,3 +1,4 @@
+import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
 import { Component, Input, OnInit } from '@angular/core';
 
@@ -12,16 +13,29 @@ export class PensamentoComponent implements OnInit {
     conteudo: 'conteudo 1',
     autoria: 'autor 1',
     modelo: 'modelo1',
+    favorito: false,
   };
 
-  constructor() {}
+  constructor(private service: PensamentoService) {}
 
   ngOnInit(): void {}
 
-  larguraPensamento() {
+  public larguraPensamento() {
     if (this.pensamento.conteudo.length > 256) {
       return 'pensamento-g';
     }
     return 'pensamento-p';
+  }
+
+  public mudarIconeFavorito() {
+    if (this.pensamento.favorito == false) {
+      return 'inativo';
+    }
+    return 'ativo';
+  }
+
+  public atualizarFavoritos() {
+    this.service.mudarFavorito(this.pensamento).subscribe();
+    console.log(this.pensamento.favorito);
   }
 }

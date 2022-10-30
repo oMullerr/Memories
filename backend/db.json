@@ -4,19 +4,22 @@
       "conteudo": "Sabe de nada inicente!",
       "autoria": "É o Tchan!",
       "modelo": "modelo1",
-      "id": 4
+      "id": 4,
+      "favorito": false
     },
     {
       "conteudo": "Everybody hurts sometimes Everybody hurts someday, ayy-ayy  But everything gon' be alright  Go and raise a glass and say, ayy",
       "autoria": "Maroon 5",
       "modelo": "modelo2",
-      "id": 5
+      "id": 5,
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "Correr ou morrer",
       "autoria": "Toretto",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     }
   ]
 }
